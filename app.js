@@ -13,7 +13,6 @@ function addTask() {
     // ao clicar no botão, a tarefa é removida
     let span = document.createElement("span");
     span.innerHTML = "\u00D7"; // simbolo de fechar (x)
-
     li.appendChild(span);
     // Create a delete button for the task
   }
